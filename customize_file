@@ -1,0 +1,5 @@
+default autoyastins
+label autoyastins
+	menu label AutoYastInstall
+	kernel linux
+	append initrd=initrd splash=silent instmode=cd autoyast=file:///autoinst.xml showopts
